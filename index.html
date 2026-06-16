@@ -22,10 +22,6 @@
     <script src="Build/Minlea.loader.js"></script>
    <script src="Build/Minlea.loader.js"></script>
     <script>
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        document.body.innerHTML = "<h2 style='color: red; text-align: center; padding: 20px;'>This game does not perform well on mobile devices. Please use a desktop for the best experience.</h2>";
-      }
-
       createUnityInstance(document.querySelector("#unity-canvas"), {
         dataUrl: "Build/Minlea.data",
         frameworkUrl: "Build/Minlea.framework.js",
